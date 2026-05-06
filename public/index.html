@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Secure Real Time Multiplayer Game</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <main>
+    <h1>Secure Real Time Multiplayer Game</h1>
+
+    <canvas id="game" width="800" height="600"></canvas>
+
+    <section>
+      <h2>Leaderboard</h2>
+      <ol id="leaderboard"></ol>
+    </section>
+  </main>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script type="module" src="/client.js"></script>
+</body>
+</html>
